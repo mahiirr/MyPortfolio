@@ -1,0 +1,203 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(50, 21, 78);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(40, 20, 57);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 29px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(153, 153, 230);
+        font-size: 1.02rem;
+    }
+
+    main hr {
+        border: 0;
+        background-color: rgb(160, 156, 232);
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+    }
+
+    .firstsection>div {
+        width: 30% 0;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+    }
+    .leftsection .button{
+          padding: 35px 0;
+    }    
+
+    .leftsection .btn {
+        padding: 11px;
+        background-color: #482d63;
+        color: white;
+        border: 2px solid white;
+        border-radius: 7px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .button-container {
+        text-align: center; /* Center the button */
+        margin: 20px 0; /* Add some spacing */
+    }
+    
+    .cta-btn {
+        padding: 15px 30px; /* Button size */
+        background-color: #73439e; /* Button color */
+        color: white; /* Text color */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Rounded corners */
+        font-size: 18px; /* Font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    
+    .cta-btn:hover {
+        background-color: darkviolet; /* Change color on hover */
+    }
+    
+    .rightsection img {
+        width: 79%;
+        margin: 30px 0;
+
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+    #element {
+        color: blueviolet;
+    }
+
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .secondsection h1 {
+        font-size: 1.9rem;
+    }
+
+    .secondsection .box {
+        background: white;
+        width: 83vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+
+    .image-top {
+        width: 30px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+
+    .vrtical-title {
+        position: relative;
+        top: 65px;
+        width: 145px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: #938e8e;
+        width: 150px;
+        font-size: 10px;
+    }
+
+    footer {
+        background-color: #3c2850;
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 120px;
+        justify-content: space-evenly;
+
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+    .footer-fourth p{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 999px;
+        font-size: 0.9rem;
+    }
+    .footer-fourth h5{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 999px;
+        font-size: 0.9rem;
+    }
+    .footer-right{
+        text-align: center;
+        margin-top: 9px;
+        font-size: 0.9rem;
+    }
+   
+    .footer>div {
+        width: 200px;
+    }
+
+    footer .footer-right {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
